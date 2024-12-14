@@ -35,13 +35,13 @@ const constantRoutes = [
   {
     path: '',
     component: 'layout/Layout',
-    redirect: 'dashboard',
+    redirect: 'Teacher',
     children: [
       {
-        path: 'dashboard',
-        component: 'views/dashboard/index',
-        name: 'Dashboard',
-        meta: { title: 'Dashboard', icon: 'dashboard', affix: true }
+        path: 'Teacher',
+        component: 'views/Teacher/index',
+        name: 'Teacher',
+        meta: { title: 'Teacher', icon: 'Teacher', affix: true }
       }
     ]
   },

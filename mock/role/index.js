@@ -23,12 +23,12 @@ const roles = [
     description: 'Just a visitor. Can only see the home page and the document page',
     routes: [{
       path: '',
-      redirect: 'dashboard',
+      redirect: 'Teacher',
       children: [
         {
-          path: 'dashboard',
-          name: 'Dashboard',
-          meta: { title: 'dashboard', icon: 'dashboard' }
+          path: 'Teacher',
+          name: 'Teacher',
+          meta: { title: 'Teacher', icon: 'Teacher' }
         }
       ]
     }]

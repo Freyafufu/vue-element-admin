@@ -1,5 +1,5 @@
 <template>
-  <div class="dashboard-container">
+  <div class="Teacher-container">
     <component :is="currentRole" />
   </div>
 </template>
@@ -10,7 +10,7 @@ import adminDashboard from './admin'
 import editorDashboard from './editor'
 
 export default {
-  name: 'Dashboard',
+  name: 'Teacher',
   components: { adminDashboard, editorDashboard },
   data() {
     return {

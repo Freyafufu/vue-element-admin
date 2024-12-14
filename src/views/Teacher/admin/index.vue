@@ -1,5 +1,5 @@
 <template>
-  <div class="dashboard-editor-container">
+  <div class="Teacher-editor-container">
     <github-corner class="github-corner" />
 
     <panel-group @handleSetLineChartData="handleSetLineChartData" />
@@ -97,7 +97,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.dashboard-editor-container {
+.Teacher-editor-container {
   padding: 32px;
   background-color: rgb(240, 242, 245);
   position: relative;
