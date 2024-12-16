@@ -1,25 +1,25 @@
 <template>
   <el-card class="box-card-component" style="margin-left:8px;">
     <div slot="header" class="box-card-header">
-      <img src="https://wpimg.wallstcn.com/e7d23d71-cf19-4b90-a1cc-f56af8c0903d.png">
+      <img src="https://img2.baidu.com/it/u=2593884371,1907998800&fm=253&fmt=auto&app=120&f=JPEG?w=667&h=500">
     </div>
     <div style="position:relative;">
       <pan-thumb :image="avatar" class="panThumb" />
       <mallki class-name="mallki-text" text="vue-element-admin" />
       <div style="padding-top:35px;" class="progress-item">
-        <span>Vue</span>
+        <span>Literature</span>
         <el-progress :percentage="70" />
       </div>
       <div class="progress-item">
-        <span>JavaScript</span>
+        <span>Science</span>
         <el-progress :percentage="18" />
       </div>
       <div class="progress-item">
-        <span>CSS</span>
+        <span>Management</span>
         <el-progress :percentage="12" />
       </div>
       <div class="progress-item">
-        <span>ESLint</span>
+        <span>Computer Science</span>
         <el-progress :percentage="100" status="success" />
       </div>
     </div>
